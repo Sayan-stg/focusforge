@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ FocusForge
 
-## Getting Started
+A modern, distraction-free productivity platform that merges the philosophy of *Deep Work* with the compounding power of *Atomic Habits*. FocusForge gamifies your daily grind with unbroken chain heatmaps, streak shields, and a competitive tiered league system.
 
-First, run the development server:
+**Live Demo:** [focusforge-pi.vercel.app](https://focusforge-pi.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
+*   **The Flow Timer:** A dedicated Pomodoro-style countdown for logging uninterrupted deep work sessions.
+*   **The 1% Habit Checklist:** Track daily micro-improvements with visual compound progress bars.
+*   **Unbroken Chain Heatmap:** A GitHub-style contribution grid that lights up as you maintain your habits.
+*   **Streak Shields:** Earn protective shields for maintaining a 7-day streak to cover you on rest days.
+*   **Local League Leaderboard:** Gamified progression with tiered leagues (Bronze to Diamond) against 50 mock competitors based on earned focus points.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+*   **Framework:** Next.js (App Router)
+*   **Styling:** Tailwind CSS v4 (Custom OKLCH color space, zero pure black/white)
+*   **Data Persistence:** Client-side `localStorage` (Zero-config, instantly deployable)
+*   **Deployment:** Vercel
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Local Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To run this project on your own machine:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Sayan-stg/focusforge.git](https://github.com/Sayan-stg/focusforge.git)
